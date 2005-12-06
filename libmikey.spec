@@ -3,6 +3,7 @@
 %bcond_without	static_libs	# don't build static library
 #
 Summary:	libmikey - C++ implementation of the MIKEY (RFC3830) protocol
+Summary(pl):	libmikey - implementacja w C++ protoko³u MIKEY (RFC3830)
 Name:		libmikey
 Version:	0.4.0
 Release:	0.1
@@ -22,6 +23,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 libmikey implements the Multimedia Internet KEYing protocol, in a C++
 library. The MIKEY protocol provides authentication and key agreement
 for secure multimedia session.
+
+%description -l pl
+libmikey to biblioteka C++ implementuj±ca protoko³ Multimedia Internet
+KEYing. Protokó³ ten zapewnia uwierzytelnianie i uzgadnianie kluczy
+dla bezpiecznych sesji multimedialnych.
 
 %package devel
 Summary:	Header files for libmikey library
