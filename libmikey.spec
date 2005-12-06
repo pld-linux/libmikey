@@ -25,7 +25,7 @@ library. The MIKEY protocol provides authentication and key agreement
 for secure multimedia session.
 
 %description -l pl
-libmikey to biblioteka C++ implementuj±ca protoko³ Multimedia Internet
+libmikey to biblioteka C++ implementuj±ca protokó³ Multimedia Internet
 KEYing. Protokó³ ten zapewnia uwierzytelnianie i uzgadnianie kluczy
 dla bezpiecznych sesji multimedialnych.
 
