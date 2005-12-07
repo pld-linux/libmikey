@@ -6,7 +6,7 @@ Summary:	libmikey - C++ implementation of the MIKEY (RFC3830) protocol
 Summary(pl):	libmikey - implementacja w C++ protoko³u MIKEY (RFC3830)
 Name:		libmikey
 Version:	0.4.0
-Release:	0.1
+Release:	1
 License:	LGPL
 Group:		Libraries
 Source0:	http://www.minisip.org/source/%{name}-%{version}.tar.gz
