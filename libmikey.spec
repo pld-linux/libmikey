@@ -3,7 +3,7 @@
 %bcond_without	static_libs	# don't build static library
 #
 Summary:	libmikey - C++ implementation of the MIKEY (RFC3830) protocol
-Summary(pl.UTF-8):   libmikey - implementacja w C++ protokołu MIKEY (RFC3830)
+Summary(pl.UTF-8):	libmikey - implementacja w C++ protokołu MIKEY (RFC3830)
 Name:		libmikey
 Version:	0.4.0
 Release:	1
@@ -31,7 +31,7 @@ dla bezpiecznych sesji multimedialnych.
 
 %package devel
 Summary:	Header files for libmikey library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki libmikey
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libmikey
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libmutil-devel >= 0.3.0
@@ -44,7 +44,7 @@ Pliki nagłówkowe biblioteki libmikey.
 
 %package static
 Summary:	Static libmikey library
-Summary(pl.UTF-8):   Statyczna biblioteka libmikey
+Summary(pl.UTF-8):	Statyczna biblioteka libmikey
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
